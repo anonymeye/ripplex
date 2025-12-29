@@ -1,15 +1,15 @@
 import React, { createContext, useContext, ReactNode, useRef, useEffect } from 'react'
-import { Store } from '@ripple/core'
+import { StoreAPI } from '@ripple/core'
 
 interface StoreContextValue<State> {
-  store: Store<State>
+  store: StoreAPI<State>
   subscribe: (callback: (state: State) => void) => () => void
 }
 
 export const StoreContext = createContext<StoreContextValue<any> | null>(null)
 
 interface StoreProviderProps<State> {
-  store: Store<State>
+  store: StoreAPI<State>
   children: ReactNode
 }
 
@@ -66,7 +66,7 @@ export function StoreProvider<State>({ store, children }: StoreProviderProps<Sta
   )
 }
 
-export function useStore<State>(): Store<State> {
+export function useStore<State>(): StoreAPI<State> {
   const context = useContext(StoreContext)
   if (!context) {
     throw new Error('useStore must be used within a StoreProvider')
