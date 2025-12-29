@@ -1,0 +1,48 @@
+{
+  "name": "@ripple/core",
+  "version": "0.1.0",
+  "description": "A re-frame inspired state management library for TypeScript",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "state-management",
+    "re-frame",
+    "typescript",
+    "ripple"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/ripple.git",
+    "directory": "packages/ripple"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/ripple/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/ripple#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
+

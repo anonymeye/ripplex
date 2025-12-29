@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+*.tsbuildinfo.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# Changesets (will be committed, but ignore temp files)
+.changeset/*.md.tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+

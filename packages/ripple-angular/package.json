@@ -1,0 +1,56 @@
+{
+  "name": "@ripple/angular",
+  "version": "0.1.0",
+  "description": "Angular bindings for Ripple state management",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=16.0.0"
+  },
+  "dependencies": {
+    "@ripple/core": "file:../ripple"
+  },
+  "devDependencies": {
+    "@angular/core": "^17.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "state-management",
+    "angular",
+    "signals",
+    "re-frame",
+    "ripple"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/ripple.git",
+    "directory": "packages/ripple-angular"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/ripple/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/ripple#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
+

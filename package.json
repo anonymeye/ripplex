@@ -1,0 +1,36 @@
+{
+  "name": "ripple",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A re-frame inspired state management library for TypeScript",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present",
+    "version": "changeset version",
+    "release": "npm run build && changeset publish"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/ripple.git"
+  },
+  "keywords": [
+    "state-management",
+    "re-frame",
+    "typescript",
+    "monorepo",
+    "ripple"
+  ],
+  "license": "MIT"
+}
+
