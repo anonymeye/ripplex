@@ -1,6 +1,6 @@
 # @rplx/react
 
-React bindings for Ripple state management library.
+React bindings for Ripplex state management library.
 
 ## Installation
 

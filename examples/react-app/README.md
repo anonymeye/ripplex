@@ -1,10 +1,10 @@
-# Ripple Store - React Example
+# Ripplex Store - React Example
 
-This is a React example application demonstrating how to use the Ripple Store state management library.
+This is a React example application demonstrating how to use the Ripplex Store state management library.
 
 ## Overview
 
-The Ripple Store is a re-frame inspired state management library for TypeScript. This example shows how to integrate it with React using custom hooks.
+The Ripplex Store is a re-frame inspired state management library for TypeScript. This example shows how to integrate it with React using custom hooks.
 
 ## Features Demonstrated
 

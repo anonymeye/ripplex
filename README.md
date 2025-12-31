@@ -1,4 +1,4 @@
-# Ripple
+# Ripplex
 
 A re-frame inspired state management library for TypeScript.
 
@@ -7,13 +7,13 @@ A re-frame inspired state management library for TypeScript.
 This is a monorepo containing the following packages:
 
 - **`@rplx/core`** - Core state management library (framework-agnostic)
-- **`@rplx/react`** - React bindings for Ripple
-- **`@rplx/angular`** - Angular bindings for Ripple
+- **`@rplx/react`** - React bindings for Ripplex
+- **`@rplx/angular`** - Angular bindings for Ripplex
 
 ## Structure
 
 ```
-ripple/
+ripplex/
 ├── packages/
 │   ├── ripple/          # Core package (@rplx/core)
 │   ├── ripple-react/    # React bindings (@rplx/react)

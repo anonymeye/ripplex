@@ -1,6 +1,6 @@
-# Changesets Guide for Ripple
+# Changesets Guide for Ripplex
 
-This guide explains how to use Changesets to manage versioning and publishing for the Ripple monorepo.
+This guide explains how to use Changesets to manage versioning and publishing for the Ripplex monorepo.
 
 ## What is Changesets?
 
@@ -14,8 +14,8 @@ Changesets is a tool that helps you:
 
 Changesets is already configured for this project with:
 - **Independent versioning** - Each package can version independently
-- **Automatic internal dependency updates** - When `@ripple/core` bumps, dependent packages get patch bumps
-- **Public access** - Scoped packages (`@ripple/*`) are published as public
+- **Automatic internal dependency updates** - When `@rplx/core` bumps, dependent packages get patch bumps
+- **Public access** - Scoped packages (`@rplx/*`) are published as public
 
 ## Workflow
 
@@ -60,7 +60,7 @@ This will:
 - ✅ Update `package.json` versions based on changesets
 - ✅ Generate/update `CHANGELOG.md` files
 - ✅ Remove used changesets
-- ✅ Update internal dependencies (e.g., `@ripple/react` depends on `@ripple/core`)
+- ✅ Update internal dependencies (e.g., `@rplx/react` depends on `@rplx/core`)
 
 ### 4. Building and Publishing
 
@@ -92,7 +92,7 @@ npx changeset publish
 
 ## Example Workflow
 
-### Scenario: Adding a new feature to `@ripple/core`
+### Scenario: Adding a new feature to `@rplx/core`
 
 ```bash
 # 1. Make changes
@@ -100,7 +100,7 @@ npx changeset publish
 
 # 2. Add changeset
 npx changeset
-# Select: @ripple/core
+# Select: @rplx/core
 # Select: minor (new feature)
 # Description: "Add new subscription API"
 
@@ -111,8 +111,8 @@ git push
 
 # 4. Later, when ready to release
 npm run version
-# This bumps @ripple/core to 0.2.0
-# And automatically bumps @ripple/react and @ripple/angular to 0.1.1 (patch)
+# This bumps @rplx/core to 0.2.0
+# And automatically bumps @rplx/react and @rplx/angular to 0.1.1 (patch)
 
 # 5. Review changes, then publish
 npm run release
@@ -120,8 +120,8 @@ npm run release
 
 ## Internal Dependencies
 
-When `@ripple/core` changes:
-- **Patch bump** → `@ripple/react` and `@ripple/angular` get patch bumps
+When `@rplx/core` changes:
+- **Patch bump** → `@rplx/react` and `@rplx/angular` get patch bumps
 - **Minor bump** → Dependent packages get patch bumps
 - **Major bump** → Dependent packages get patch bumps
 

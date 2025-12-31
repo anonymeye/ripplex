@@ -1,6 +1,6 @@
 # Angular Example App
 
-This example demonstrates how to use Ripple state management with Angular using Signals.
+This example demonstrates how to use Ripplex state management with Angular using Signals.
 
 ## Features
 

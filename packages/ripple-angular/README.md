@@ -1,6 +1,6 @@
 # @rplx/angular
 
-Angular bindings for Ripple state management library using Angular Signals.
+Angular bindings for Ripplex state management library using Angular Signals.
 
 ## Installation
 
@@ -62,7 +62,7 @@ export class CounterComponent {
 
 ### `provideRippleStore<State>(store: StoreAPI<State>)`
 
-Provider function to configure the Ripple store for dependency injection. The store should be created using `createStore()` from `@rplx/core`.
+Provider function to configure the Ripplex store for dependency injection. The store should be created using `createStore()` from `@rplx/core`.
 
 ### `injectStoreState<State>()`
 
