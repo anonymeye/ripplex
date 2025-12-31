@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, signal, computed, effect, ElementRef, ViewChild, AfterViewChecked } from '@angular/core';
-import { EventTrace } from '@ripple/core';
-import { injectStore } from '@ripple/angular';
+import { EventTrace } from '@rplx/core';
+import { injectStore } from '@rplx/angular';
 import { AppState } from '../../../store/types';
 
 /**

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch } from '@ripple/react'
+import { useDispatch } from '@rplx/react'
 import {
   useTodos,
   useFilteredTodos,

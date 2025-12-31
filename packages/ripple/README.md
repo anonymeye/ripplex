@@ -1,17 +1,17 @@
-# @ripple/core
+# @rplx/core
 
 A re-frame inspired state management library for TypeScript.
 
 ## Installation
 
 ```bash
-npm install @ripple/core
+npm install @rplx/core
 ```
 
 ## Usage
 
 ```typescript
-import { createStore } from '@ripple/core'
+import { createStore } from '@rplx/core'
 
 // Define your state
 interface AppState {
@@ -95,7 +95,7 @@ Effects are side effects that can be triggered by event handlers. Common effects
 Interceptors wrap event handlers to add cross-cutting concerns. They have `:before` and `:after` phases that run in opposite order (like middleware):
 
 ```typescript
-import { path, debug } from '@ripple/core'
+import { path, debug } from '@rplx/core'
 
 store.registerEventWithInterceptors(
   'update-todo',

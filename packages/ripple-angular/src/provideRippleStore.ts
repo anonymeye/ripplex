@@ -1,5 +1,5 @@
 import { InjectionToken, Provider } from '@angular/core';
-import { StoreAPI } from '@ripple/core';
+import { StoreAPI } from '@rplx/core';
 import { RippleStoreService } from './RippleStoreService';
 
 /**

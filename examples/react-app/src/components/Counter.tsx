@@ -1,4 +1,4 @@
-import { useDispatch } from '@ripple/react'
+import { useDispatch } from '@rplx/react'
 import { useCounterCount } from '../hooks'
 import { counterEvents } from '../store/events'
 

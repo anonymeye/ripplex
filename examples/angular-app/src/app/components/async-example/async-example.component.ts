@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { injectSubscription, injectDispatch } from '@ripple/angular';
+import { injectSubscription, injectDispatch } from '@rplx/angular';
 import { asyncEvents } from '../../../store/events';
 
 /**

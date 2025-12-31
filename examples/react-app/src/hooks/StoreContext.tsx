@@ -1,5 +1,5 @@
 import React, { createContext, useContext, ReactNode, useRef, useEffect } from 'react'
-import { StoreAPI } from '@ripple/core'
+import { StoreAPI } from '@rplx/core'
 
 interface StoreContextValue<State> {
   store: StoreAPI<State>

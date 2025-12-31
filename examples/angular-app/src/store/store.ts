@@ -1,4 +1,4 @@
-import { createStore, EventHandlerDb, EventHandlerFx, EffectHandler } from '@ripple/core'
+import { createStore, EventHandlerDb, EventHandlerFx, EffectHandler } from '@rplx/core'
 import { AppState, AppCoeffects } from './types'
 import { allEventDefinitions, todoEvents } from './events'
 import { allEffectHandlers } from './effects'

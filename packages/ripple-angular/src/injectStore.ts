@@ -1,7 +1,7 @@
 import { inject } from '@angular/core';
 import { RippleStoreService } from './RippleStoreService';
 import { RIPPLE_STORE_SERVICE } from './provideRippleStore';
-import { StoreAPI } from '@ripple/core';
+import { StoreAPI } from '@rplx/core';
 
 /**
  * Injection function to get the store instance directly

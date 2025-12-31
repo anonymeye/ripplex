@@ -1,5 +1,5 @@
 /**
- * @ripple/core - Re-frame inspired state management for TypeScript
+ * @rplx/core - Re-frame inspired state management for TypeScript
  * 
  * This is the main entry point for the ripple library.
  * All public APIs are re-exported from here - users should never import
@@ -15,7 +15,7 @@
  * 
  * @example
  * ```typescript
- * import { createStore } from '@ripple/core'
+ * import { createStore } from '@rplx/core'
  * const store = createStore({ initialState: {} })
  * ```
  */
@@ -33,7 +33,7 @@ export {
  * 
  * @example
  * ```typescript
- * import { mergeEffects } from '@ripple/core'
+ * import { mergeEffects } from '@rplx/core'
  * 
  * const effects = mergeEffects(
  *   { db: newState },
@@ -89,7 +89,7 @@ export type {
  * 
  * @example
  * ```typescript
- * import { path, debug, after } from '@ripple/core'
+ * import { path, debug, after } from '@rplx/core'
  * 
  * store.registerEventDb('event/key', handler, [
  *   path(['users', 'current']),
@@ -117,7 +117,7 @@ export {
  * 
  * @example
  * ```typescript
- * import { SubscriptionConfig } from '@ripple/core'
+ * import { SubscriptionConfig } from '@rplx/core'
  * 
  * store.registerSubscription('users/current', {
  *   compute: (state) => state.users.current
@@ -141,7 +141,7 @@ export {
  * 
  * @example
  * ```typescript
- * import { defaultErrorHandler } from '@ripple/core'
+ * import { defaultErrorHandler } from '@rplx/core'
  * 
  * store.registerErrorHandler(defaultErrorHandler)
  * ```

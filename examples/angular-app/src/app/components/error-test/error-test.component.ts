@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { injectDispatch, injectStore } from '@ripple/angular';
+import { injectDispatch, injectStore } from '@rplx/angular';
 import { errorTestEvents } from '../../../store/events';
 
 /**

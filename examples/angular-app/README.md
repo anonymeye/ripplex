@@ -17,8 +17,8 @@ npm install
 
 2. Build the packages:
 ```bash
-npm run build --workspace=@ripple/core
-npm run build --workspace=@ripple/angular
+npm run build --workspace=@rplx/core
+npm run build --workspace=@rplx/angular
 ```
 
 3. Start the development server:
@@ -35,7 +35,7 @@ The app uses Angular Signals to reactively update components when the store stat
 
 ```typescript
 import { Component, computed } from '@angular/core';
-import { injectStoreState, injectDispatch } from '@ripple/angular';
+import { injectStoreState, injectDispatch } from '@rplx/angular';
 
 @Component({
   selector: 'app-example',

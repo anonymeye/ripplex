@@ -1,6 +1,6 @@
 /// Base effect map - contains only built-in effects common to all users
 /// Consumers should extend this interface via TypeScript module augmentation to add custom effects
-/// Example: declare module '@ripple/core' { interface EffectMap { 'my-effect'?: {...} } }
+/// Example: declare module '@rplx/core' { interface EffectMap { 'my-effect'?: {...} } }
 export interface EffectMap {
     /// Update state directly via effects (executes first, before other effects)
     db?: any

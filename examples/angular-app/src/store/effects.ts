@@ -1,7 +1,7 @@
-import { EffectHandler, EffectMap } from '@ripple/core'
+import { EffectHandler, EffectMap } from '@rplx/core'
 
 // Extend EffectMap to include our custom effects
-declare module '@ripple/core' {
+declare module '@rplx/core' {
   interface EffectMap {
     'http-request'?: {
       url: string

@@ -10,8 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@ripple/core": "file:../../packages/ripple",
-    "@ripple/react": "file:../../packages/ripple-react",
+    "@rplx/core": "file:../../packages/ripple",
+    "@rplx/react": "file:../../packages/ripple-react",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

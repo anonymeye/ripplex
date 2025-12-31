@@ -1,4 +1,4 @@
-import { useDispatch, useStore } from '@ripple/react'
+import { useDispatch, useStore } from '@rplx/react'
 
 export function ErrorTest() {
   const dispatch = useDispatch()

@@ -23,8 +23,8 @@
     /* Path aliases */
     "baseUrl": ".",
     "paths": {
-      "@ripple/core": ["../../packages/ripple/src/index.ts"],
-      "@ripple/react": ["../../packages/ripple-react/src/index.ts"]
+      "@rplx/core": ["../../packages/ripple/src/index.ts"],
+      "@rplx/react": ["../../packages/ripple-react/src/index.ts"]
     }
   },
   "include": ["src"],

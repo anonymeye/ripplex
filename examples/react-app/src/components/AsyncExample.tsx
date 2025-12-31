@@ -1,4 +1,4 @@
-import { useDispatch } from '@ripple/react'
+import { useDispatch } from '@rplx/react'
 import { useAsyncData, useAsyncLoading, useAsyncError } from '../hooks'
 import { asyncEvents } from '../store/events'
 

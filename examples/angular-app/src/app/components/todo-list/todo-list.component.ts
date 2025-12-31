@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { injectSubscription, injectDispatch } from '@ripple/angular';
+import { injectSubscription, injectDispatch } from '@rplx/angular';
 import { Todo } from '../../../store/types';
 import { todoEvents } from '../../../store/events';
 

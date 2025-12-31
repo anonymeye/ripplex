@@ -88,7 +88,7 @@ npm run preview
 The store is created with an initial state and configured with event and effect handlers:
 
 ```typescript
-import { StoreAPI } from '@ripple/core'
+import { StoreAPI } from '@rplx/core'
 import { store } from './store/store'
 ```
 

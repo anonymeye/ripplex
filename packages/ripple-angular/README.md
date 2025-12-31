@@ -1,11 +1,11 @@
-# @ripple/angular
+# @rplx/angular
 
 Angular bindings for Ripple state management library using Angular Signals.
 
 ## Installation
 
 ```bash
-npm install @ripple/angular @ripple/core
+npm install @rplx/angular @rplx/core
 ```
 
 ## Usage
@@ -16,8 +16,8 @@ In your `main.ts` or module:
 
 ```typescript
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideRippleStore } from '@ripple/angular';
-import { createStore } from '@ripple/core';
+import { provideRippleStore } from '@rplx/angular';
+import { createStore } from '@rplx/core';
 import { AppComponent } from './app.component';
 
 const store = createStore<AppState>({
@@ -35,7 +35,7 @@ bootstrapApplication(AppComponent, {
 
 ```typescript
 import { Component, computed } from '@angular/core';
-import { injectStoreState, injectDispatch } from '@ripple/angular';
+import { injectStoreState, injectDispatch } from '@rplx/angular';
 
 @Component({
   selector: 'app-counter',
@@ -62,7 +62,7 @@ export class CounterComponent {
 
 ### `provideRippleStore<State>(store: StoreAPI<State>)`
 
-Provider function to configure the Ripple store for dependency injection. The store should be created using `createStore()` from `@ripple/core`.
+Provider function to configure the Ripple store for dependency injection. The store should be created using `createStore()` from `@rplx/core`.
 
 ### `injectStoreState<State>()`
 

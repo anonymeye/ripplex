@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import { EventTrace } from '@ripple/core'
+import { EventTrace } from '@rplx/core'
 import { store } from '../store/store'
 import { AppState } from '../store/types'
 

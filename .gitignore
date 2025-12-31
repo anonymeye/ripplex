@@ -38,6 +38,9 @@ pnpm-debug.log*
 .env.local
 .env.*.local
 
+# NPM config (may contain auth tokens)
+.npmrc
+
 # Testing
 coverage/
 .nyc_output/

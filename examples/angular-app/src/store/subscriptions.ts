@@ -1,4 +1,4 @@
-import { SubscriptionConfig } from '@ripple/core'
+import { SubscriptionConfig } from '@rplx/core'
 import { AppState, CounterState, TodoState, Todo, AsyncState } from './types'
 
 /**

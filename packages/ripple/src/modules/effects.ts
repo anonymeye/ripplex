@@ -327,7 +327,7 @@ export function createEffectExecutor<State>(
  * 
  * @example
  * ```typescript
- * import { mergeEffects } from '@ripple/core'
+ * import { mergeEffects } from '@rplx/core'
  * 
  * const effects = mergeEffects(
  *   { db: newState },

@@ -1,5 +1,5 @@
 import { signal, Signal, WritableSignal } from '@angular/core';
-import { StoreAPI } from '@ripple/core';
+import { StoreAPI } from '@rplx/core';
 
 /**
  * Service that wraps a Ripple Store and exposes state as an Angular Signal

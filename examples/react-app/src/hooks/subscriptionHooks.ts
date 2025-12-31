@@ -1,4 +1,4 @@
-import { createSubscriptionHook } from '@ripple/react'
+import { createSubscriptionHook } from '@rplx/react'
 import { CounterState, Todo, TodoState, AsyncState } from '../store/types'
 
 /**

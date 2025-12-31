@@ -1,18 +1,18 @@
-# @ripple/react
+# @rplx/react
 
 React bindings for Ripple state management library.
 
 ## Installation
 
 ```bash
-npm install @ripple/core @ripple/react
+npm install @rplx/core @rplx/react
 ```
 
 ## Usage
 
 ```tsx
-import { createStore } from '@ripple/core'
-import { StoreProvider, useStoreState, useDispatch } from '@ripple/react'
+import { createStore } from '@rplx/core'
+import { StoreProvider, useStoreState, useDispatch } from '@rplx/react'
 
 // Create your store
 const store = createStore({

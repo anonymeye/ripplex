@@ -1,4 +1,4 @@
-import { StoreProvider } from '@ripple/react'
+import { StoreProvider } from '@rplx/react'
 import { store } from './store/store'
 import { Counter, TodoList, AsyncExample, ErrorTest, TraceViewer } from './components'
 import './App.css'

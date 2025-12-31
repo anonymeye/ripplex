@@ -6,18 +6,18 @@ A re-frame inspired state management library for TypeScript.
 
 This is a monorepo containing the following packages:
 
-- **`@ripple/core`** - Core state management library (framework-agnostic)
-- **`@ripple/react`** - React bindings for Ripple
-- **`@ripple/angular`** - Angular bindings for Ripple
+- **`@rplx/core`** - Core state management library (framework-agnostic)
+- **`@rplx/react`** - React bindings for Ripple
+- **`@rplx/angular`** - Angular bindings for Ripple
 
 ## Structure
 
 ```
 ripple/
 ├── packages/
-│   ├── ripple/          # Core package (@ripple/core)
-│   ├── ripple-react/    # React bindings (@ripple/react)
-│   └── ripple-angular/  # Angular bindings (@ripple/angular)
+│   ├── ripple/          # Core package (@rplx/core)
+│   ├── ripple-react/    # React bindings (@rplx/react)
+│   └── ripple-angular/  # Angular bindings (@rplx/angular)
 ├── examples/
 │   ├── react-app/       # Example React application
 │   └── angular-app/     # Example Angular application
@@ -30,17 +30,17 @@ ripple/
 
 ```bash
 # Core package (required)
-npm install @ripple/core
+npm install @rplx/core
 
 # Framework bindings (choose one or both)
-npm install @ripple/react      # For React
-npm install @ripple/angular    # For Angular
+npm install @rplx/react      # For React
+npm install @rplx/angular    # For Angular
 ```
 
 ### Core Usage
 
 ```typescript
-import { createStore } from '@ripple/core'
+import { createStore } from '@rplx/core'
 
 const store = createStore({
   initialState: { count: 0 }
@@ -56,8 +56,8 @@ await store.dispatch('increment')
 ### React Usage
 
 ```tsx
-import { createStore } from '@ripple/core'
-import { StoreProvider, useStoreState, useDispatch } from '@ripple/react'
+import { createStore } from '@rplx/core'
+import { StoreProvider, useStoreState, useDispatch } from '@rplx/react'
 
 const store = createStore({ initialState: { count: 0 } })
 

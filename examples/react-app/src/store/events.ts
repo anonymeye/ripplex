@@ -1,4 +1,4 @@
-import { EffectMap, path, debug, after, validate, Interceptor } from '@ripple/core'
+import { EffectMap, path, debug, after, validate, Interceptor } from '@rplx/core'
 import { AppState, AppCoeffects, Todo, CounterState, TodoState, AsyncState } from './types'
 
 // Counter events
