@@ -1,6 +1,6 @@
 {
   "name": "@rplx/angular",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Angular bindings for Ripple state management",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -25,7 +25,7 @@
     "@angular/core": ">=16.0.0"
   },
   "dependencies": {
-    "@rplx/core": "file:../ripple"
+    "@rplx/core": "^0.2.0"
   },
   "devDependencies": {
     "@angular/core": "^17.0.0",
@@ -53,4 +53,3 @@
     "access": "public"
   }
 }
-
