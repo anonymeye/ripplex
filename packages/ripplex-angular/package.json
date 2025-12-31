@@ -1,7 +1,7 @@
 {
-  "name": "@rplx/core",
+  "name": "@rplx/angular",
   "version": "0.2.0",
-  "description": "A re-frame inspired state management library for TypeScript",
+  "description": "Angular bindings for Ripple state management",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -21,21 +21,29 @@
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "clean": "rm -rf dist"
   },
+  "peerDependencies": {
+    "@angular/core": ">=16.0.0"
+  },
+  "dependencies": {
+    "@rplx/core": "^0.2.0"
+  },
   "devDependencies": {
+    "@angular/core": "^17.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.2.2"
   },
   "keywords": [
     "state-management",
+    "angular",
+    "signals",
     "re-frame",
-    "typescript",
     "ripple"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/anonymeye/ripplex.git",
-    "directory": "packages/ripple"
+    "directory": "packages/ripplex-angular"
   },
   "bugs": {
     "url": "https://github.com/anonymeye/ripplex/issues"

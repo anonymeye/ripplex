@@ -1,5 +1,5 @@
 {
-  "name": "ripple",
+  "name": "ripplex",
   "version": "0.1.0",
   "private": true,
   "description": "A re-frame inspired state management library for TypeScript",
@@ -30,7 +30,7 @@
     "re-frame",
     "typescript",
     "monorepo",
-    "ripple"
+    "ripplex"
   ],
   "license": "MIT"
 }

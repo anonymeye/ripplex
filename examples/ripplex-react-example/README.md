@@ -57,7 +57,7 @@ src/
 ### Installation
 
 ```bash
-cd examples/react-app
+cd examples/ripplex-react-example
 npm install
 ```
 

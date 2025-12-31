@@ -96,7 +96,7 @@ npx changeset publish
 
 ```bash
 # 1. Make changes
-# Edit packages/ripple/src/...
+# Edit packages/ripplex/src/...
 
 # 2. Add changeset
 npx changeset

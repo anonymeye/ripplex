@@ -43,7 +43,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anonymeye/ripplex.git",
-    "directory": "packages/ripple-react"
+    "directory": "packages/ripplex-react"
   },
   "bugs": {
     "url": "https://github.com/anonymeye/ripplex/issues"

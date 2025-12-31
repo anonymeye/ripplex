@@ -23,7 +23,7 @@ npm run build --workspace=@rplx/angular
 
 3. Start the development server:
 ```bash
-cd examples/angular-app
+cd examples/ripplex-angular-example
 npm start
 ```
 

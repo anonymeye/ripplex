@@ -15,12 +15,12 @@ This is a monorepo containing the following packages:
 ```
 ripplex/
 ├── packages/
-│   ├── ripple/          # Core package (@rplx/core)
-│   ├── ripple-react/    # React bindings (@rplx/react)
-│   └── ripple-angular/  # Angular bindings (@rplx/angular)
+│   ├── ripplex/          # Core package (@rplx/core)
+│   ├── ripplex-react/    # React bindings (@rplx/react)
+│   └── ripplex-angular/  # Angular bindings (@rplx/angular)
 ├── examples/
-│   ├── react-app/       # Example React application
-│   └── angular-app/     # Example Angular application
+│   ├── ripplex-react-example/       # Example React application
+│   └── ripplex-angular-example/     # Example Angular application
 └── package.json         # Root workspace configuration
 ```
 
@@ -96,7 +96,7 @@ npm install
 npm run build
 
 # Run example app
-cd examples/react-app
+cd examples/ripplex-react-example
 npm run dev
 ```
 

@@ -7,8 +7,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@rplx/core': path.resolve(__dirname, '../../packages/ripple/src/index.ts'),
-      '@rplx/react': path.resolve(__dirname, '../../packages/ripple-react/src/index.ts'),
+      '@rplx/core': path.resolve(__dirname, '../../packages/ripplex/src/index.ts'),
+      '@rplx/react': path.resolve(__dirname, '../../packages/ripplex-react/src/index.ts'),
     },
   },
 })
