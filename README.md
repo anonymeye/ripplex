@@ -2,6 +2,8 @@
 
 A re-frame inspired state management library for TypeScript.
 
+> **Status**: Currently in **v0.2.1** (pre-1.0). Core APIs are stable. See [@rplx/core README](../packages/ripplex/README.md#stability) for details.
+
 ## Packages
 
 This is a monorepo containing the following packages:
@@ -47,7 +49,9 @@ const store = createStore({
 })
 
 store.registerEvent('increment', (context, payload) => {
-  return [{ count: context.db.count + 1 }, {}]
+  return {
+    db: { count: context.db.count + 1 }
+  }
 })
 
 await store.dispatch('increment')
@@ -83,6 +87,23 @@ function Counter() {
   )
 }
 ```
+
+## Documentation
+
+For detailed documentation, see the [docs](./docs/) directory:
+
+- **[Store](./docs/store.md)** - Store creation, configuration, and state management
+- **[Events](./docs/events.md)** - Event handlers, registration, and dispatching
+- **[Effects](./docs/effects.md)** - Side effects, effect handlers, and built-in effects
+- **[Interceptors](./docs/interceptors.md)** - Interceptor system and built-in interceptors
+- **[Subscriptions](./docs/subscriptions.md)** - Subscription system for reactive state queries
+- **[Error Handler](./docs/error-handler.md)** - Error handling and recovery
+- **[Tracing](./docs/tracing.md)** - Event tracing and debugging
+
+For package-specific documentation:
+- [@rplx/core README](./packages/ripplex/README.md) - Core package API reference
+- [@rplx/react README](./packages/ripplex-react/README.md) - React bindings
+- [@rplx/angular README](./packages/ripplex-angular/README.md) - Angular bindings
 
 ## Development
 
